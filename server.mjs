@@ -4,6 +4,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const PUBLIC_DIR = process.env.VERCEL ? process.cwd() : __dirname;
 const PORT = Number(process.env.PORT || 4173);
 const HOST = process.env.HOST || "0.0.0.0";
 const REMOTE_API = "https://polite-banoffee-3e782b.netlify.app/.netlify/functions";
@@ -1060,8 +1061,8 @@ async function search(q) {
 async function serveStatic(req, res) {
   const url = new URL(req.url, `http://${req.headers.host}`);
   const requested = decodeURIComponent(url.pathname === "/" ? "/index.html" : url.pathname);
-  const filePath = path.normalize(path.join(__dirname, requested));
-  if (!filePath.startsWith(__dirname)) {
+  const filePath = path.normalize(path.join(PUBLIC_DIR, requested));
+  if (!filePath.startsWith(PUBLIC_DIR)) {
     res.writeHead(403);
     res.end("Forbidden");
     return;
