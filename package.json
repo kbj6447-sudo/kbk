@@ -1,0 +1,12 @@
+{
+  "name": "us-stock-surge-scanner",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "private": true,
+  "type": "module"
+}

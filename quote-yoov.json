@@ -1,0 +1,127 @@
+﻿{
+    "ok":  true,
+    "data":  {
+                 "symbol":  "YOOV",
+                 "name":  "Concorde International Group Ltd.",
+                 "preMarketChangePercent":  93.5,
+                 "preMarketPrice":  1.34,
+                 "preMarketVolume":  20287109,
+                 "marketCap":  157190000,
+                 "sourceTags":  [
+                                    "stockanalysis-premarket",
+                                    "direct-watch-symbol",
+                                    "yahoo-1m-extended"
+                                ],
+                 "exchange":  "NasdaqCM",
+                 "currency":  "USD",
+                 "price":  1.34,
+                 "previousClose":  1.02,
+                 "change":  0.3500000000000001,
+                 "changePercent":  34.313725490196084,
+                 "volume":  136313,
+                 "averageVolume":  93938.33333333333,
+                 "volumeRatio":  1.451090254244806,
+                 "oneMinuteTrend":  "up",
+                 "newsCount":  5,
+                 "source":  {
+                                "quote":  "yahoo-finance",
+                                "fundamentals":  "unavailable",
+                                "intraday":  "yahoo-finance-chart"
+                            },
+                 "score":  {
+                               "volumeSurge":  16,
+                               "preMarketStrength":  33,
+                               "shortInterest":  0,
+                               "floatSize":  35,
+                               "vwapPosition":  35,
+                               "minuteTrend":  85,
+                               "fiveMinuteVolume":  35,
+                               "news":  95,
+                               "total":  35,
+                               "verdict":  "하락 압력 우세",
+                               "verdictClass":  "dn"
+                           },
+                 "dayHigh":  1.9,
+                 "dayLow":  0.6995,
+                 "extendedHours":  true,
+                 "scannerScore":  65,
+                 "surgePrecursorScore":  49,
+                 "momentumExpansionScore":  68,
+                 "patternSimilarityScore":  58,
+                 "riskScore":  30,
+                 "finalProbabilityScore":  65,
+                 "stage":  "MOMENTUM EXPANSION",
+                 "stageLabel":  "추가 확장 가능",
+                 "patternMatches":  [
+                                        {
+                                            "symbol":  "EDBL",
+                                            "similarity":  58
+                                        },
+                                        {
+                                            "symbol":  "TDIC",
+                                            "similarity":  53
+                                        },
+                                        {
+                                            "symbol":  "AEHL",
+                                            "similarity":  53
+                                        },
+                                        {
+                                            "symbol":  "DXF",
+                                            "similarity":  53
+                                        },
+                                        {
+                                            "symbol":  "WOK",
+                                            "similarity":  53
+                                        },
+                                        {
+                                            "symbol":  "LNKS",
+                                            "similarity":  53
+                                        },
+                                        {
+                                            "symbol":  "YOOV",
+                                            "similarity":  47
+                                        }
+                                    ],
+                 "storyTags":  [
+                                   "offshore-smallcap",
+                                   "microcap",
+                                   "low-price"
+                               ],
+                 "technical":  {
+                                   "closePosition":  53.3527696793003,
+                                   "upperWickRisk":  45,
+                                   "vwapState":  "unknown",
+                                   "rsi":  null,
+                                   "ma5vs20":  "unknown",
+                                   "pullbackVolumeSignal":  false
+                               },
+                 "selectionReasons":  [
+                                          "Premarket move 93.5%",
+                                          "Premarket volume 20.3M",
+                                          "Micro/small market cap",
+                                          "Low-price setup",
+                                          "Story tags: offshore-smallcap, microcap, low-price"
+                                      ],
+                 "relativeVolume":  1.451090254244806,
+                 "inScanUniverse":  true,
+                 "included":  true,
+                 "excludedReason":  null,
+                 "inScannerResults":  true,
+                 "scanCandidateStatus":  {
+                                             "presentInRawCandidates":  true,
+                                             "included":  true,
+                                             "excludedReason":  null,
+                                             "sourceTags":  [
+                                                                "stockanalysis-premarket",
+                                                                "direct-watch-symbol",
+                                                                "yahoo-1m-extended"
+                                                            ],
+                                             "preMarketChangePercent":  93.5,
+                                             "preMarketVolume":  20287109,
+                                             "scannerScore":  65,
+                                             "stage":  "MOMENTUM EXPANSION",
+                                             "finalProbabilityScore":  65,
+                                             "patternSimilarityScore":  58
+                                         }
+             }
+}

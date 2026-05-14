@@ -1,0 +1,129 @@
+﻿{
+    "ok":  true,
+    "data":  {
+                 "date":  "2026-05-07",
+                 "rows":  [
+                              {
+                                  "symbol":  "TDIC",
+                                  "recommendationDate":  "2026-05-07",
+                                  "recommendationPrice":  1.1799999475479126,
+                                  "volumeAtRecommendation":  21200,
+                                  "maxGain1d":  9.322035524976014,
+                                  "maxGain3d":  143.2203400960362,
+                                  "maxGain5d":  2442.3729943667545,
+                                  "success":  true,
+                                  "actualSurge":  true,
+                                  "patternSimilarity":  100,
+                                  "notes":  [
+                                                "low-float small cap",
+                                                "ticker/story rerating style",
+                                                "volume expansion after quiet tape"
+                                            ]
+                              },
+                              {
+                                  "symbol":  "AEHL",
+                                  "recommendationDate":  "2026-05-07",
+                                  "recommendationPrice":  0.5099999904632568,
+                                  "volumeAtRecommendation":  96100,
+                                  "maxGain1d":  456.8627386815452,
+                                  "maxGain3d":  456.8627386815452,
+                                  "maxGain5d":  731.3725196870639,
+                                  "success":  true,
+                                  "actualSurge":  true,
+                                  "patternSimilarity":  100,
+                                  "notes":  [
+                                                "offshore Nasdaq microcap",
+                                                "low liquidity",
+                                                "sharp volume expansion"
+                                            ]
+                              },
+                              {
+                                  "symbol":  "DXF",
+                                  "recommendationDate":  "2026-05-07",
+                                  "recommendationPrice":  0.44999998807907104,
+                                  "volumeAtRecommendation":  353300,
+                                  "maxGain1d":  13.333334216365131,
+                                  "maxGain3d":  48.88889654183114,
+                                  "maxGain5d":  73.33333156726974,
+                                  "success":  true,
+                                  "actualSurge":  false,
+                                  "patternSimilarity":  100,
+                                  "notes":  [
+                                                "offshore Nasdaq microcap",
+                                                "low price",
+                                                "premarket volume burst"
+                                            ]
+                              },
+                              {
+                                  "symbol":  "WOK",
+                                  "recommendationDate":  "2026-05-07",
+                                  "recommendationPrice":  1.309999942779541,
+                                  "volumeAtRecommendation":  15300,
+                                  "maxGain1d":  2.671762393853678,
+                                  "maxGain3d":  459.5420033495082,
+                                  "maxGain5d":  459.5420033495082,
+                                  "success":  true,
+                                  "actualSurge":  true,
+                                  "patternSimilarity":  100,
+                                  "notes":  [
+                                                "Nasdaq small cap",
+                                                "low liquidity",
+                                                "theme-driven retail flow"
+                                            ]
+                              },
+                              {
+                                  "symbol":  "LNKS",
+                                  "recommendationDate":  "2026-05-07",
+                                  "recommendationPrice":  1.5299999713897705,
+                                  "volumeAtRecommendation":  66700,
+                                  "maxGain1d":  5.228761072634299,
+                                  "maxGain3d":  5.228761072634299,
+                                  "maxGain5d":  5.228761072634299,
+                                  "success":  false,
+                                  "actualSurge":  false,
+                                  "patternSimilarity":  100,
+                                  "notes":  [
+                                                "offshore Nasdaq small cap",
+                                                "low float style movement",
+                                                "premarket interest"
+                                            ]
+                              },
+                              {
+                                  "symbol":  "YOOV",
+                                  "recommendationDate":  "2026-05-07",
+                                  "recommendationPrice":  1.2799999713897705,
+                                  "volumeAtRecommendation":  16300,
+                                  "maxGain1d":  14.453130165930023,
+                                  "maxGain3d":  14.453130165930023,
+                                  "maxGain5d":  14.453130165930023,
+                                  "success":  false,
+                                  "actualSurge":  false,
+                                  "patternSimilarity":  100,
+                                  "notes":  [
+                                                "AI theme",
+                                                "ticker change",
+                                                "merger/AIaaS story",
+                                                "low-float style movement"
+                                            ]
+                              },
+                              {
+                                  "symbol":  "EDBL",
+                                  "recommendationDate":  "2026-05-07",
+                                  "recommendationPrice":  0.38499999046325684,
+                                  "volumeAtRecommendation":  342000,
+                                  "maxGain1d":  3.116889510635017,
+                                  "maxGain3d":  3.116889510635017,
+                                  "maxGain5d":  3.116889510635017,
+                                  "success":  false,
+                                  "actualSurge":  false,
+                                  "patternSimilarity":  100,
+                                  "notes":  [
+                                                "microcap",
+                                                "low price",
+                                                "extreme volume expansion",
+                                                "listing risk"
+                                            ]
+                              }
+                          ]
+             }
+}
