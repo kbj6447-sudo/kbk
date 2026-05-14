@@ -1079,7 +1079,7 @@ async function serveStatic(req, res) {
   }
 }
 
-const server = http.createServer(async (req, res) => {
+export async function handleRequest(req, res) {
   try {
     const url = new URL(req.url, `http://${req.headers.host}`);
     if (url.pathname === "/api/scanner") {
@@ -1120,8 +1120,13 @@ const server = http.createServer(async (req, res) => {
       message: error.message || "Request failed",
     });
   }
-});
+}
 
-server.listen(PORT, HOST, () => {
-  console.log(`US stock scanner: http://${HOST}:${PORT}`);
-});
+export default handleRequest;
+
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  const server = http.createServer(handleRequest);
+  server.listen(PORT, HOST, () => {
+    console.log(`US stock scanner: http://${HOST}:${PORT}`);
+  });
+}
