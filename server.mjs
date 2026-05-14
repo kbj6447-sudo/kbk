@@ -4,7 +4,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const PUBLIC_DIR = process.env.VERCEL ? process.cwd() : __dirname;
+const PUBLIC_DIR = process.env.VERCEL ? path.join(__dirname, "public") : __dirname;
 const PORT = Number(process.env.PORT || 4173);
 const HOST = process.env.HOST || "0.0.0.0";
 const REMOTE_API = "https://polite-banoffee-3e782b.netlify.app/.netlify/functions";
